@@ -1,0 +1,15 @@
+V3 8
+FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/prescaller.vhd 2013/11/27.07:51:13 P.58f
+EN work/prescaller 1385522280 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/prescaller.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/prescaller/Behavioral 1385522281 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/prescaller.vhd \
+      EN work/prescaller 1385522280
+FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/vendingmachine.vhd 2013/11/27.08:14:31 P.58f
+EN work/vendingmachine 1385522282 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/vendingmachine.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/vendingmachine/Behavioral 1385522283 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/vendingmachine.vhd \
+      EN work/vendingmachine 1385522282 CP prescaller

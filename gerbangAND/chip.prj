@@ -1,0 +1,4 @@
+vhdl work "modOR2.vhd"
+vhdl work "modNOT.vhd"
+vhdl work "modAND2.vhd"
+vhdl work "gerbangAND.vhd"

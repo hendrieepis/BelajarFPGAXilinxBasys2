@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.58f on Sun Nov 17 19:35:09 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "datasegA<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "enA" LOCATE = SITE "F12" LEVEL 1;
+COMP "datasegA<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "datasegA<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "datasegA<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "datasegA<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "datasegA<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "datasegA<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "datasegA<7>" LOCATE = SITE "N13" LEVEL 1;
+SCHEMATIC END;
+

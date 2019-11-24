@@ -1,0 +1,23 @@
+V3 13
+FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/loopback.vhd 2013/12/07.19:29:18 P.58f
+EN work/LOOPBACK 1386419388 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/loopback.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/LOOPBACK/RTL 1386419389 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/loopback.vhd \
+      EN work/LOOPBACK 1386419388 CP UART
+FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/top.vhd 2013/12/07.12:10:00 P.58f
+EN work/TOP 1386419390 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/top.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/TOP/RTL 1386419391 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/top.vhd \
+      EN work/TOP 1386419390 CP LOOPBACK
+FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/uart.vhd 2013/12/07.12:10:00 P.58f
+EN work/UART 1386419386 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/uart.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PB ieee/MATH_REAL 1364358224
+AR work/UART/RTL 1386419387 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/uart.vhd \
+      EN work/UART 1386419386 CP baud_tick CP uart_rx_sample_tick

@@ -1,0 +1,3 @@
+vhdl work "uart.vhd"
+vhdl work "loopback.vhd"
+vhdl work "top.vhd"

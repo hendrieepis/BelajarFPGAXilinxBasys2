@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 counterLED.ngc counterLED.ngd  
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 counterLED.ngc counterLED.ngd  
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/counterLED.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 counterLED.ngc counterLED.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o counterLED_map.ncd counterLED.ngd counterLED.pcf 
+par -w -intstyle ise -ol high -t 1 counterLED_map.ncd counterLED.ncd counterLED.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counterLED.twx counterLED.ncd -o counterLED.twr counterLED.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f counterLED.ut counterLED.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P05_CounterledHDL/counterLED.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P05_CounterledHDL/counterLED.syr" 

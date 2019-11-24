@@ -1,0 +1,15 @@
+#  dataSegA<="00000000";
+#  enA<='0';
+NET "dataSegA<0>" LOC=L14;  # segA
+NET "dataSegA<1>" LOC=H12;  # segB
+NET "dataSegA<2>" LOC=N14;  # segC
+NET "dataSegA<3>" LOC=N11;  # segD
+NET "dataSegA<4>" LOC=P12;  # segE
+NET "dataSegA<5>" LOC=L13;  # segF
+NET "dataSegA<6>" LOC=M12;  # segG
+NET "dataSegA<7>" LOC=N13;  # segDot
+NET "inSaklar<0>" LOC=P11;
+NET "inSaklar<1>" LOC=L3;
+NET "inSaklar<2>" LOC=K3;
+NET "inSaklar<3>" LOC=B4;
+NET "enA"         LOC=F12;  

@@ -1,0 +1,7 @@
+#NET "tick"       LOC=M5;
+NET "clk"        LOC=B8; 
+NET "merah_out"  LOC=G1; 
+NET "kuning_out" LOC=N5; 
+NET "hijau_out"  LOC=P7; 
+NET "reset_in"   LOC=A7;
+

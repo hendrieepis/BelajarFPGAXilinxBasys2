@@ -1,0 +1,1 @@
+vhdtdtfi -prj sevensegmentTest -o /home/hendri/Documents/workspaceXilinxBasys2/sevensegmentTest/blink.vhi -module blink -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work blinker2.vhd 

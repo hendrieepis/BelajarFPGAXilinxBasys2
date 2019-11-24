@@ -1,0 +1,8 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/opt/Xilinx/14.5/ISE_DS/PlanAhead/tps/lnx32/jre/lib/i386/server/libjvm.so(+0x5dc6f5) [0xa00666f5]
+/opt/Xilinx/14.5/ISE_DS/PlanAhead/tps/lnx32/jre/lib/i386/server/libjvm.so(JVM_handle_linux_signal+0x572) [0xa006b7b2]
+/opt/Xilinx/14.5/ISE_DS/PlanAhead/tps/lnx32/jre/lib/i386/server/libjvm.so(+0x5d9ba6) [0xa0063ba6]
+/lib/i386-linux-gnu/libpthread.so.0(+0xee40) [0xb6f93e40]

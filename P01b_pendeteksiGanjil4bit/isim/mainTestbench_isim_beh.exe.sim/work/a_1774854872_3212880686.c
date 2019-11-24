@@ -1,0 +1,402 @@
+/**********************************************************************/
+/*   ____  ____                                                       */
+/*  /   /\/   /                                                       */
+/* /___/  \  /                                                        */
+/* \   \   \/                                                       */
+/*  \   \        Copyright (c) 2003-2009 Xilinx, Inc.                */
+/*  /   /          All Right Reserved.                                 */
+/* /---/   /\                                                         */
+/* \   \  /  \                                                      */
+/*  \___\/\___\                                                    */
+/***********************************************************************/
+
+/* This file is designed for use with ISim build 0xfbc00daa */
+
+#define XSI_HIDE_SYMBOL_SPEC true
+#include "xsi.h"
+#include <memory.h>
+#ifdef __GNUC__
+#include <stdlib.h>
+#else
+#include <malloc.h>
+#define alloca _alloca
+#endif
+static const char *ng0 = "/home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjil4bit/main.vhd";
+extern char *IEEE_P_2592010699;
+
+unsigned char ieee_p_2592010699_sub_1605435078_503743352(char *, unsigned char , unsigned char );
+unsigned char ieee_p_2592010699_sub_2545490612_503743352(char *, unsigned char , unsigned char );
+
+
+static void work_a_1774854872_3212880686_p_0(char *t0)
+{
+    char *t1;
+    char *t2;
+    int t3;
+    unsigned int t4;
+    unsigned int t5;
+    unsigned int t6;
+    unsigned char t7;
+    char *t8;
+    char *t9;
+    int t10;
+    unsigned int t11;
+    unsigned int t12;
+    unsigned int t13;
+    unsigned char t14;
+    char *t15;
+    char *t16;
+    int t17;
+    unsigned int t18;
+    unsigned int t19;
+    unsigned int t20;
+    unsigned char t21;
+    unsigned char t22;
+    unsigned char t23;
+    char *t24;
+    char *t25;
+    int t26;
+    unsigned int t27;
+    unsigned int t28;
+    unsigned int t29;
+    unsigned char t30;
+    char *t31;
+    char *t32;
+    int t33;
+    unsigned int t34;
+    unsigned int t35;
+    unsigned int t36;
+    unsigned char t37;
+    unsigned char t38;
+    unsigned char t39;
+    char *t40;
+    char *t41;
+    int t42;
+    unsigned int t43;
+    unsigned int t44;
+    unsigned int t45;
+    unsigned char t46;
+    char *t47;
+    char *t48;
+    int t49;
+    unsigned int t50;
+    unsigned int t51;
+    unsigned int t52;
+    unsigned char t53;
+    unsigned char t54;
+    char *t55;
+    char *t56;
+    int t57;
+    unsigned int t58;
+    unsigned int t59;
+    unsigned int t60;
+    unsigned char t61;
+    unsigned char t62;
+    unsigned char t63;
+    char *t64;
+    char *t65;
+    int t66;
+    unsigned int t67;
+    unsigned int t68;
+    unsigned int t69;
+    unsigned char t70;
+    char *t71;
+    char *t72;
+    int t73;
+    unsigned int t74;
+    unsigned int t75;
+    unsigned int t76;
+    unsigned char t77;
+    unsigned char t78;
+    unsigned char t79;
+    char *t80;
+    char *t81;
+    int t82;
+    unsigned int t83;
+    unsigned int t84;
+    unsigned int t85;
+    unsigned char t86;
+    char *t87;
+    char *t88;
+    int t89;
+    unsigned int t90;
+    unsigned int t91;
+    unsigned int t92;
+    unsigned char t93;
+    unsigned char t94;
+    char *t95;
+    char *t96;
+    int t97;
+    unsigned int t98;
+    unsigned int t99;
+    unsigned int t100;
+    unsigned char t101;
+    unsigned char t102;
+    unsigned char t103;
+    char *t104;
+    char *t105;
+    int t106;
+    unsigned int t107;
+    unsigned int t108;
+    unsigned int t109;
+    unsigned char t110;
+    char *t111;
+    char *t112;
+    int t113;
+    unsigned int t114;
+    unsigned int t115;
+    unsigned int t116;
+    unsigned char t117;
+    unsigned char t118;
+    char *t119;
+    char *t120;
+    int t121;
+    unsigned int t122;
+    unsigned int t123;
+    unsigned int t124;
+    unsigned char t125;
+    unsigned char t126;
+    unsigned char t127;
+    char *t128;
+    char *t129;
+    int t130;
+    unsigned int t131;
+    unsigned int t132;
+    unsigned int t133;
+    unsigned char t134;
+    char *t135;
+    char *t136;
+    int t137;
+    unsigned int t138;
+    unsigned int t139;
+    unsigned int t140;
+    unsigned char t141;
+    unsigned char t142;
+    char *t143;
+    char *t144;
+    int t145;
+    unsigned int t146;
+    unsigned int t147;
+    unsigned int t148;
+    unsigned char t149;
+    unsigned char t150;
+    char *t151;
+    char *t152;
+    int t153;
+    unsigned int t154;
+    unsigned int t155;
+    unsigned int t156;
+    unsigned char t157;
+    unsigned char t158;
+    unsigned char t159;
+    char *t160;
+    char *t161;
+    char *t162;
+    char *t163;
+    char *t164;
+    char *t165;
+
+LAB0:    xsi_set_current_line(41, ng0);
+
+LAB3:    t1 = (t0 + 592U);
+    t2 = *((char **)t1);
+    t3 = (0 - 3);
+    t4 = (t3 * -1);
+    t5 = (1U * t4);
+    t6 = (0 + t5);
+    t1 = (t2 + t6);
+    t7 = *((unsigned char *)t1);
+    t8 = (t0 + 592U);
+    t9 = *((char **)t8);
+    t10 = (1 - 3);
+    t11 = (t10 * -1);
+    t12 = (1U * t11);
+    t13 = (0 + t12);
+    t8 = (t9 + t13);
+    t14 = *((unsigned char *)t8);
+    t15 = (t0 + 592U);
+    t16 = *((char **)t15);
+    t17 = (0 - 3);
+    t18 = (t17 * -1);
+    t19 = (1U * t18);
+    t20 = (0 + t19);
+    t15 = (t16 + t20);
+    t21 = *((unsigned char *)t15);
+    t22 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t14, t21);
+    t23 = ieee_p_2592010699_sub_2545490612_503743352(IEEE_P_2592010699, t7, t22);
+    t24 = (t0 + 592U);
+    t25 = *((char **)t24);
+    t26 = (2 - 3);
+    t27 = (t26 * -1);
+    t28 = (1U * t27);
+    t29 = (0 + t28);
+    t24 = (t25 + t29);
+    t30 = *((unsigned char *)t24);
+    t31 = (t0 + 592U);
+    t32 = *((char **)t31);
+    t33 = (0 - 3);
+    t34 = (t33 * -1);
+    t35 = (1U * t34);
+    t36 = (0 + t35);
+    t31 = (t32 + t36);
+    t37 = *((unsigned char *)t31);
+    t38 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t30, t37);
+    t39 = ieee_p_2592010699_sub_2545490612_503743352(IEEE_P_2592010699, t23, t38);
+    t40 = (t0 + 592U);
+    t41 = *((char **)t40);
+    t42 = (2 - 3);
+    t43 = (t42 * -1);
+    t44 = (1U * t43);
+    t45 = (0 + t44);
+    t40 = (t41 + t45);
+    t46 = *((unsigned char *)t40);
+    t47 = (t0 + 592U);
+    t48 = *((char **)t47);
+    t49 = (1 - 3);
+    t50 = (t49 * -1);
+    t51 = (1U * t50);
+    t52 = (0 + t51);
+    t47 = (t48 + t52);
+    t53 = *((unsigned char *)t47);
+    t54 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t46, t53);
+    t55 = (t0 + 592U);
+    t56 = *((char **)t55);
+    t57 = (0 - 3);
+    t58 = (t57 * -1);
+    t59 = (1U * t58);
+    t60 = (0 + t59);
+    t55 = (t56 + t60);
+    t61 = *((unsigned char *)t55);
+    t62 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t54, t61);
+    t63 = ieee_p_2592010699_sub_2545490612_503743352(IEEE_P_2592010699, t39, t62);
+    t64 = (t0 + 592U);
+    t65 = *((char **)t64);
+    t66 = (3 - 3);
+    t67 = (t66 * -1);
+    t68 = (1U * t67);
+    t69 = (0 + t68);
+    t64 = (t65 + t69);
+    t70 = *((unsigned char *)t64);
+    t71 = (t0 + 592U);
+    t72 = *((char **)t71);
+    t73 = (0 - 3);
+    t74 = (t73 * -1);
+    t75 = (1U * t74);
+    t76 = (0 + t75);
+    t71 = (t72 + t76);
+    t77 = *((unsigned char *)t71);
+    t78 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t70, t77);
+    t79 = ieee_p_2592010699_sub_2545490612_503743352(IEEE_P_2592010699, t63, t78);
+    t80 = (t0 + 592U);
+    t81 = *((char **)t80);
+    t82 = (3 - 3);
+    t83 = (t82 * -1);
+    t84 = (1U * t83);
+    t85 = (0 + t84);
+    t80 = (t81 + t85);
+    t86 = *((unsigned char *)t80);
+    t87 = (t0 + 592U);
+    t88 = *((char **)t87);
+    t89 = (1 - 3);
+    t90 = (t89 * -1);
+    t91 = (1U * t90);
+    t92 = (0 + t91);
+    t87 = (t88 + t92);
+    t93 = *((unsigned char *)t87);
+    t94 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t86, t93);
+    t95 = (t0 + 592U);
+    t96 = *((char **)t95);
+    t97 = (0 - 3);
+    t98 = (t97 * -1);
+    t99 = (1U * t98);
+    t100 = (0 + t99);
+    t95 = (t96 + t100);
+    t101 = *((unsigned char *)t95);
+    t102 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t94, t101);
+    t103 = ieee_p_2592010699_sub_2545490612_503743352(IEEE_P_2592010699, t79, t102);
+    t104 = (t0 + 592U);
+    t105 = *((char **)t104);
+    t106 = (3 - 3);
+    t107 = (t106 * -1);
+    t108 = (1U * t107);
+    t109 = (0 + t108);
+    t104 = (t105 + t109);
+    t110 = *((unsigned char *)t104);
+    t111 = (t0 + 592U);
+    t112 = *((char **)t111);
+    t113 = (2 - 3);
+    t114 = (t113 * -1);
+    t115 = (1U * t114);
+    t116 = (0 + t115);
+    t111 = (t112 + t116);
+    t117 = *((unsigned char *)t111);
+    t118 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t110, t117);
+    t119 = (t0 + 592U);
+    t120 = *((char **)t119);
+    t121 = (0 - 3);
+    t122 = (t121 * -1);
+    t123 = (1U * t122);
+    t124 = (0 + t123);
+    t119 = (t120 + t124);
+    t125 = *((unsigned char *)t119);
+    t126 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t118, t125);
+    t127 = ieee_p_2592010699_sub_2545490612_503743352(IEEE_P_2592010699, t103, t126);
+    t128 = (t0 + 592U);
+    t129 = *((char **)t128);
+    t130 = (3 - 3);
+    t131 = (t130 * -1);
+    t132 = (1U * t131);
+    t133 = (0 + t132);
+    t128 = (t129 + t133);
+    t134 = *((unsigned char *)t128);
+    t135 = (t0 + 592U);
+    t136 = *((char **)t135);
+    t137 = (2 - 3);
+    t138 = (t137 * -1);
+    t139 = (1U * t138);
+    t140 = (0 + t139);
+    t135 = (t136 + t140);
+    t141 = *((unsigned char *)t135);
+    t142 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t134, t141);
+    t143 = (t0 + 592U);
+    t144 = *((char **)t143);
+    t145 = (1 - 3);
+    t146 = (t145 * -1);
+    t147 = (1U * t146);
+    t148 = (0 + t147);
+    t143 = (t144 + t148);
+    t149 = *((unsigned char *)t143);
+    t150 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t142, t149);
+    t151 = (t0 + 592U);
+    t152 = *((char **)t151);
+    t153 = (0 - 3);
+    t154 = (t153 * -1);
+    t155 = (1U * t154);
+    t156 = (0 + t155);
+    t151 = (t152 + t156);
+    t157 = *((unsigned char *)t151);
+    t158 = ieee_p_2592010699_sub_1605435078_503743352(IEEE_P_2592010699, t150, t157);
+    t159 = ieee_p_2592010699_sub_2545490612_503743352(IEEE_P_2592010699, t127, t158);
+    t160 = (t0 + 1556);
+    t161 = (t160 + 32U);
+    t162 = *((char **)t161);
+    t163 = (t162 + 32U);
+    t164 = *((char **)t163);
+    *((unsigned char *)t164) = t159;
+    xsi_driver_first_trans_fast_port(t160);
+
+LAB2:    t165 = (t0 + 1512);
+    *((int *)t165) = 1;
+
+LAB1:    return;
+LAB4:    goto LAB2;
+
+}
+
+
+extern void work_a_1774854872_3212880686_init()
+{
+	static char *pe[] = {(void *)work_a_1774854872_3212880686_p_0};
+	xsi_register_didat("work_a_1774854872_3212880686", "isim/mainTestbench_isim_beh.exe.sim/work/a_1774854872_3212880686.didat");
+	xsi_register_executes(pe);
+}

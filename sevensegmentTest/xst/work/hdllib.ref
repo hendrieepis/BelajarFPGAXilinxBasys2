@@ -1,0 +1,6 @@
+AR system behavioral /home/hendri/Documents/workspaceXilinxBasys2/sevensegmentTest/system.vhd sub00/vhpl05 1387164378
+AR blink behavioral /home/hendri/Documents/workspaceXilinxBasys2/sevensegmentTest/blinker2.vhd sub00/vhpl03 1387164374
+EN blink NULL /home/hendri/Documents/workspaceXilinxBasys2/sevensegmentTest/blinker2.vhd sub00/vhpl02 1387164373
+EN system NULL /home/hendri/Documents/workspaceXilinxBasys2/sevensegmentTest/system.vhd sub00/vhpl04 1387164377
+AR sevensegment behavioral /home/hendri/Documents/workspaceXilinxBasys2/sevensegmentTest/sevenSegment.vhd sub00/vhpl01 1387164376
+EN sevensegment NULL /home/hendri/Documents/workspaceXilinxBasys2/sevensegmentTest/sevenSegment.vhd sub00/vhpl00 1387164375

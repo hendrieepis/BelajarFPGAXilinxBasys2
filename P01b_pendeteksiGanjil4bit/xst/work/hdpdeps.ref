@@ -1,0 +1,10 @@
+V3 4
+FL /home/hendri/Documents/workspaceXilinxBasys2/P01b_pendeteksiGanjil4bit/main.vhd 2013/11/18.09:59:00 P.20131013
+EN work/main 1416881132 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P01b_pendeteksiGanjil4bit/main.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/main/Behavioral 1416881133 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P01b_pendeteksiGanjil4bit/main.vhd \
+      EN work/main 1416881132
+FL /home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjil4bit/main.vhd 2013/11/18.09:59:48 P.20131013

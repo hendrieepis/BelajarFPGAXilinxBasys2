@@ -1,0 +1,10 @@
+NET "en"         LOC=F12;  
+NET "tick"       LOC=C9;
+NET "clk"        LOC=B8; 
+NET "merah_out"  LOC=G1; 
+NET "kuning_out" LOC=N5; 
+NET "hijau_out"  LOC=P7; 
+NET "reset_in"   LOC=A7;
+NET "alert_in"   LOC=G12;
+
+

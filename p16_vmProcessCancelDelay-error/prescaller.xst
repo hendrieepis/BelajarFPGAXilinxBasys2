@@ -1,0 +1,5 @@
+set -tmpdir "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/xst/projnav.tmp"
+set -xsthdpdir "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/xst"
+elaborate
+-ifn prescaller.prj
+-ifmt mixed

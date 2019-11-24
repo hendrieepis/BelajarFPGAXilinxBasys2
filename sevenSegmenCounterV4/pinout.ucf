@@ -1,0 +1,14 @@
+NET "dataSegA<0>" LOC=L14;  # segA
+NET "dataSegA<1>" LOC=H12;  # segB
+NET "dataSegA<2>" LOC=N14;  # segC
+NET "dataSegA<3>" LOC=N11;  # segD
+NET "dataSegA<4>" LOC=P12;  # segE
+NET "dataSegA<5>" LOC=L13;  # segF
+NET "dataSegA<6>" LOC=M12;  # segG
+NET "dataSegA<7>" LOC=N13;  # segDot
+NET "en<3>"         LOC=F12;  
+NET "en<2>"         LOC=J12;  
+NET "en<1>"         LOC=M13;  
+NET "en<0>"         LOC=K14;  
+NET "tick"       LOC=A9;
+NET "clk"        LOC=B8;  

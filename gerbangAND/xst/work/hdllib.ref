@@ -1,0 +1,8 @@
+AR modand2 behavioral /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/modAND2.vhd sub00/vhpl03 1417487498
+AR chip behavioural /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/gerbangAND.vhd sub00/vhpl01 1417487500
+AR modor2 behavioral /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/modOR2.vhd sub00/vhpl05 1417487494
+EN modand2 NULL /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/modAND2.vhd sub00/vhpl02 1417487497
+AR modnot behavioral /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/modNOT.vhd sub00/vhpl07 1417487496
+EN modor2 NULL /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/modOR2.vhd sub00/vhpl04 1417487493
+EN modnot NULL /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/modNOT.vhd sub00/vhpl06 1417487495
+EN chip NULL /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/gerbangAND.vhd sub00/vhpl00 1417487499

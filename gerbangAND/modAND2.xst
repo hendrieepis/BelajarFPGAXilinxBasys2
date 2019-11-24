@@ -1,0 +1,5 @@
+set -tmpdir "/home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/xst/projnav.tmp"
+set -xsthdpdir "/home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/xst"
+elaborate
+-ifn modAND2.prj
+-ifmt mixed

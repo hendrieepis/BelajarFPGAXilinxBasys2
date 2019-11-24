@@ -1,0 +1,5 @@
+set -tmpdir "/home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjil4bit/xst/projnav.tmp"
+set -xsthdpdir "/home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjil4bit/xst"
+elaborate
+-ifn main.prj
+-ifmt mixed

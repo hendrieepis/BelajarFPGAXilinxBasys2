@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/prescaller.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/prescaller.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/prescaller.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P4_CounterledHDL/prescaller.syr" 

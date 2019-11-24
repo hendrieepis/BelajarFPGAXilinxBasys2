@@ -1,0 +1,1 @@
+vhdtdtfi -prj sevenSegmentCounterV3 -o /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV3/psc7seg.vhi -module psc7seg -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work clk7seg.vhd 

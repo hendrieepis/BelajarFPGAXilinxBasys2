@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (lin)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sun Nov 17 18:13:16 2013
+
+drc -z mainHDL.ncd mainHDL.pcf
+
+DRC detected 0 errors and 0 warnings.

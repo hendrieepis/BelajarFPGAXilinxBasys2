@@ -1,0 +1,8 @@
+V3 5
+FL /home/hendri/Documents/workspaceXilinxBasys2/P12_TrafficlightDelay/trafficLight.vhd 2013/11/26.20:52:17 P.58f
+EN work/traficLight 1385473943 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P12_TrafficlightDelay/trafficLight.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/traficLight/Behavioral 1385473944 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P12_TrafficlightDelay/trafficLight.vhd \
+      EN work/traficLight 1385473943 CP BUFG

@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (lin)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Nov 18 05:09:45 2013
+
+drc -z sevenSegment.ncd sevenSegment.pcf
+
+DRC detected 0 errors and 0 warnings.

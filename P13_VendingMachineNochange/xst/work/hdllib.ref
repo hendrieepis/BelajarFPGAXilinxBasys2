@@ -1,0 +1,4 @@
+EN vendingmachine NULL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/vendingmachine.vhd sub00/vhpl02 1385522282
+EN prescaller NULL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/prescaller.vhd sub00/vhpl00 1385522280
+AR vendingmachine behavioral /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/vendingmachine.vhd sub00/vhpl03 1385522283
+AR prescaller behavioral /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/prescaller.vhd sub00/vhpl01 1385522281

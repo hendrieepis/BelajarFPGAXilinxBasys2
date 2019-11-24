@@ -1,0 +1,5 @@
+set -tmpdir "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV3/xst/projnav.tmp"
+set -xsthdpdir "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV3/xst"
+elaborate
+-ifn psc7seg.prj
+-ifmt mixed

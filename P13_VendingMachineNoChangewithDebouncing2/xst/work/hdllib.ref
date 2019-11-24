@@ -1,0 +1,6 @@
+EN vendingmachine NULL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingMachine.vhd sub00/vhpl02 1385528383
+EN prescaller NULL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/prescaller.vhd sub00/vhpl00 1385528379
+AR vendingmachine behavioral /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingMachine.vhd sub00/vhpl03 1385528384
+AR prescaller behavioral /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/prescaller.vhd sub00/vhpl01 1385528380
+EN debouncingcircuit NULL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/debouncingCircuit.vhd sub00/vhpl04 1385528381
+AR debouncingcircuit behavioral /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/debouncingCircuit.vhd sub00/vhpl05 1385528382

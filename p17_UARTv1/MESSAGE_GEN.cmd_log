@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/MESSAGE_GEN.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/MESSAGE_GEN.syr" 

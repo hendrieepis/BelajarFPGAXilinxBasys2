@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11-LCDROM/ROM.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11-LCDROM/ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCDROM.ucf -p xc3s250e-cp132-4 ROM.ngc ROM.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o ROM_map.ncd ROM.ngd ROM.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_map.ncd ROM.ncd ROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ROM.twx ROM.ncd -o ROM.twr ROM.pcf -ucf LCDROM.ucf 
+bitgen -intstyle ise -f ROM.ut ROM.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11-LCDROM/ROM.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11-LCDROM/ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCDROM.ucf -p xc3s250e-cp132-4 ROM.ngc ROM.ngd  
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11-LCDROM/ROM.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11-LCDROM/ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCDROM.ucf -p xc3s250e-cp132-4 ROM.ngc ROM.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o ROM_map.ncd ROM.ngd ROM.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_map.ncd ROM.ncd ROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ROM.twx ROM.ncd -o ROM.twr ROM.pcf -ucf LCDROM.ucf 
+bitgen -intstyle ise -f ROM.ut ROM.ncd 

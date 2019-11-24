@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/blackbox/bbox.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/blackbox/bbox.syr" 

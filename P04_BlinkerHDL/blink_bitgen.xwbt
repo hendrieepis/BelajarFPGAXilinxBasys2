@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/akhmad/Documents/workspaceXilinxBasys2/P04_BlinkerHDL/blink.ncd
+OUTFILE=/home/akhmad/Documents/workspaceXilinxBasys2/P04_BlinkerHDL/blink.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4cp132
+WORKINGDIR=/home/akhmad/Documents/workspaceXilinxBasys2/P04_BlinkerHDL
+LICENSE=WebPack
+USER_INFO=205718885_0_0_372

@@ -1,0 +1,14 @@
+NET "dataOut<7>" LOC = C6;
+NET "dataOut<6>" LOC = B6;
+NET "dataOut<5>" LOC = C5;
+NET "dataOut<4>" LOC = B7;
+NET "dataOut<3>" LOC = A9;
+NET "dataOut<2>" LOC = B9;
+NET "dataOut<1>" LOC = A10;
+NET "dataOut<0>" LOC = C9;
+
+NET "En" LOC = C12 ;
+NET "Rs" LOC = A13;
+NET "reset" LOC = A7;
+NET "clk" LOC = B8;
+#net "reset" PULLUP;

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P01b_pendeteksiGanjil4bit/main.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P01b_pendeteksiGanjil4bit/main.syr" 

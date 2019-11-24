@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:11:24 MDT 2013
+# Start of session at: Sun Nov 17 18:33:14 2013
+# Process ID: 10264
+# Log file: /home/hendri/Documents/workspaceXilinxBasys2/singleSevenSegment/planAhead_run_1/planAhead.log
+# Journal file: /home/hendri/Documents/workspaceXilinxBasys2/singleSevenSegment/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui

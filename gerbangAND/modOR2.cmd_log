@@ -1,0 +1,1 @@
+vhdtdtfi -prj gerbangAND -o /home/hendri/Documents/workspaceXilinxBasys2/gerbangAND/modOR2.vhi -module modOR2 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work modOR2.vhd 

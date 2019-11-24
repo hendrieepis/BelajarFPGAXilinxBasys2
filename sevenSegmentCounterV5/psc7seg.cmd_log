@@ -1,0 +1,80 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 psc7seg.ngc psc7seg.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o psc7seg_map.ncd psc7seg.ngd psc7seg.pcf 
+par -w -intstyle ise -ol high -t 1 psc7seg_map.ncd psc7seg.ncd psc7seg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml psc7seg.twx psc7seg.ncd -o psc7seg.twr psc7seg.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f psc7seg.ut psc7seg.ncd 
+vhdtdtfi -prj sevenSegmentCounterV5 -o /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.vhi -module psc7seg -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work clk7seg.vhd 
+vhdtdtfi -prj sevenSegmentCounterV5 -o /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV5/psc7seg.vhi -module psc7seg -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work clk7seg.vhd 

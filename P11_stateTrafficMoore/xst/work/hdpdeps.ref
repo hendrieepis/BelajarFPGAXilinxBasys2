@@ -1,0 +1,9 @@
+V3 6
+FL /home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traffic.vhd 2013/11/29.01:08:59 P.58f
+EN work/traficLight 1385662146 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traffic.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/traficLight/Behavioral 1385662147 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traffic.vhd \
+      EN work/traficLight 1385662146 CP BUFG
+FL /home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traffic.vhd 2013/11/26.09:46:07 P.58f

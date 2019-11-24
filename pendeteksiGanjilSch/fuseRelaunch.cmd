@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjilSch/mainTestbench_isim_beh.exe" -prj "/home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjilSch/mainTestbench_beh.prj" "work.mainTestbench" 

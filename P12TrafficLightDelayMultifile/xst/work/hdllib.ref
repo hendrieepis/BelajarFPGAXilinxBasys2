@@ -1,0 +1,4 @@
+EN prescaller NULL /home/hendri/Documents/workspaceXilinxBasys2/P12TrafficLightDelayMultifile/prescaller.vhd sub00/vhpl00 1385475552
+EN traficlight NULL /home/hendri/Documents/workspaceXilinxBasys2/P12TrafficLightDelayMultifile/trafficlight.vhd sub00/vhpl02 1385475554
+AR prescaller behavioral /home/hendri/Documents/workspaceXilinxBasys2/P12TrafficLightDelayMultifile/prescaller.vhd sub00/vhpl01 1385475553
+AR traficlight behavioral /home/hendri/Documents/workspaceXilinxBasys2/P12TrafficLightDelayMultifile/trafficlight.vhd sub00/vhpl03 1385475555

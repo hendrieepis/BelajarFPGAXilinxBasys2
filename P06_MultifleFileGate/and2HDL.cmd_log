@@ -1,0 +1,1 @@
+vhdtdtfi -prj multipleFile -o /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/and2HDL.vhi -module and2HDL -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work and2HDL.vhd 

@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.58f on Fri Nov 29 01:09:16 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset_in" LOCATE = SITE "A7" LEVEL 1;
+COMP "en" LOCATE = SITE "F12" LEVEL 1;
+COMP "merah_out" LOCATE = SITE "G1" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "tick" LOCATE = SITE "C9" LEVEL 1;
+COMP "kuning_out" LOCATE = SITE "N5" LEVEL 1;
+COMP "hijau_out" LOCATE = SITE "P7" LEVEL 1;
+COMP "alert_in" LOCATE = SITE "G12" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

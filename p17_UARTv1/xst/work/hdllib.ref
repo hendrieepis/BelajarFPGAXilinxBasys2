@@ -1,0 +1,8 @@
+EN loopback NULL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/loopback.vhd sub00/vhpl04 1386419388
+AR loopback rtl /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/loopback.vhd sub00/vhpl05 1386419389
+EN top NULL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/top.vhd sub00/vhpl06 1386419390
+AR top rtl /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/top.vhd sub00/vhpl07 1386419391
+AR uart rtl /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/uart.vhd sub00/vhpl03 1386419387
+AR message_gen rtl /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/uart.vhd sub00/vhpl01 1386392816
+EN message_gen NULL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/uart.vhd sub00/vhpl00 1386392815
+EN uart NULL /home/hendri/Documents/workspaceXilinxBasys2/p17_UARTv1/uart.vhd sub00/vhpl02 1386419386

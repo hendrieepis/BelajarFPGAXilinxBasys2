@@ -1,0 +1,60 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficV1/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P11_stateTrafficMoore/traficLight.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 traficLight.ngc traficLight.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o traficLight_map.ncd traficLight.ngd traficLight.pcf 
+par -w -intstyle ise -ol high -t 1 traficLight_map.ncd traficLight.ncd traficLight.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traficLight.twx traficLight.ncd -o traficLight.twr traficLight.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f traficLight.ut traficLight.ncd 

@@ -1,0 +1,2 @@
+NET "clk_i" LOC=b8;
+NET "blinkout" LOC=C9;

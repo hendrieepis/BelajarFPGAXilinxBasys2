@@ -1,0 +1,417 @@
+Release 14.5 - xst P.58f (lin)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: sevenSegment.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sevenSegment.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sevenSegment"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-cp132
+
+---- Source Options
+Top Module Name                    : sevenSegment
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV3/clk7seg.vhd" in Library work.
+Entity <psc7seg> compiled.
+Entity <psc7seg> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV3/sevenSegment.vhd" in Library work.
+Architecture behavioral of Entity sevensegment is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <sevenSegment> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <psc7seg> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sevenSegment> in library <work> (Architecture <behavioral>).
+Entity <sevenSegment> analyzed. Unit <sevenSegment> generated.
+
+Analyzing Entity <psc7seg> in library <work> (Architecture <behavioral>).
+Entity <psc7seg> analyzed. Unit <psc7seg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <psc7seg>.
+    Related source file is "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV3/clk7seg.vhd".
+    Found 26-bit up counter for signal <psc>.
+    Found 26-bit comparator less for signal <psc$cmp_lt0000> created at line 49.
+    Found 1-bit register for signal <sInv>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <psc7seg> synthesized.
+
+
+Synthesizing Unit <sevenSegment>.
+    Related source file is "/home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV3/sevenSegment.vhd".
+    Using one-hot encoding for signal <sCount>.
+    Found 8-bit register for signal <datasegA>.
+    Found 1-bit register for signal <enA>.
+    Found 1-bit register for signal <enB>.
+    Found 2-bit register for signal <sCount>.
+    Found 1-bit register for signal <testTick>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+Unit <sevenSegment> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 6
+ 1-bit register                                        : 4
+ 2-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 1
+ 26-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <datasegA_1> (without init value) has a constant value of 0 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <datasegA_2> (without init value) has a constant value of 0 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <datasegA_6> (without init value) has a constant value of 1 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <datasegA_7> (without init value) has a constant value of 1 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <sCount_1> of sequential type is unconnected in block <sevenSegment>.
+WARNING:Xst:2677 - Node <sCount_1> of sequential type is unconnected in block <sevenSegment>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 13
+ Flip-Flops                                            : 13
+# Comparators                                          : 1
+ 26-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <datasegA_1> (without init value) has a constant value of 0 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <datasegA_2> (without init value) has a constant value of 0 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <datasegA_6> (without init value) has a constant value of 1 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <datasegA_7> (without init value) has a constant value of 1 in block <sevenSegment>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <sCount_0> in Unit <sevenSegment> is equivalent to the following 4 FFs/Latches, which will be removed : <datasegA_0> <datasegA_3> <datasegA_4> <datasegA_5> 
+INFO:Xst:2261 - The FF/Latch <testTick> in Unit <sevenSegment> is equivalent to the following FF/Latch, which will be removed : <enA> 
+
+Optimizing unit <sevenSegment> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sevenSegment, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sevenSegment.ngr
+Top Level Output File Name         : sevenSegment
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 103
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 29
+#      LUT2                        : 1
+#      LUT4                        : 3
+#      MUXCY                       : 36
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 30
+#      FDE                         : 1
+#      FDR                         : 29
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250ecp132-4 
+
+ Number of Slices:                       23  out of   2448     0%  
+ Number of Slice Flip Flops:             30  out of   4896     0%  
+ Number of 4 input LUTs:                 39  out of   4896     0%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of     92    13%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Inst_psc7seg/sInv                  | BUFG                   | 3     |
+clk                                | BUFGP                  | 27    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.415ns (Maximum Frequency: 184.685MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.571ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_psc7seg/sInv'
+  Clock period: 3.334ns (frequency: 299.940MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               3.334ns (Levels of Logic = 1)
+  Source:            sCount_0 (FF)
+  Destination:       enB (FF)
+  Source Clock:      Inst_psc7seg/sInv rising
+  Destination Clock: Inst_psc7seg/sInv rising
+
+  Data Path: sCount_0 to enB
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.591   0.708  sCount_0 (sCount_0)
+     INV:I->O              1   0.704   0.420  N111_INV_0 (N11)
+     FDR:R                     0.911          enB
+    ----------------------------------------
+    Total                      3.334ns (2.206ns logic, 1.128ns route)
+                                       (66.2% logic, 33.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.415ns (frequency: 184.685MHz)
+  Total number of paths / destination ports: 919 / 54
+-------------------------------------------------------------------------
+Delay:               5.415ns (Levels of Logic = 12)
+  Source:            Inst_psc7seg/psc_5 (FF)
+  Destination:       Inst_psc7seg/psc_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_psc7seg/psc_5 to Inst_psc7seg/psc_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  Inst_psc7seg/psc_5 (Inst_psc7seg/psc_5)
+     LUT1:I0->O            1   0.704   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<0>_rt (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<0> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<1> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<2> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<3> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<4> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<5> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<6> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<7> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<8> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<9> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<9>)
+     MUXCY:CI->O          27   0.331   1.261  Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<10> (Inst_psc7seg/Mcompar_psc_cmp_lt0000_cy<10>)
+     FDR:R                     0.911          Inst_psc7seg/psc_0
+    ----------------------------------------
+    Total                      5.415ns (3.532ns logic, 1.883ns route)
+                                       (65.2% logic, 34.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_psc7seg/sInv'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              4.571ns (Levels of Logic = 1)
+  Source:            sCount_0 (FF)
+  Destination:       datasegA<5> (PAD)
+  Source Clock:      Inst_psc7seg/sInv rising
+
+  Data Path: sCount_0 to datasegA<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.591   0.708  sCount_0 (sCount_0)
+     OBUF:I->O                 3.272          datasegA_5_OBUF (datasegA<5>)
+    ----------------------------------------
+    Total                      4.571ns (3.863ns logic, 0.708ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.14 secs
+ 
+--> 
+
+
+Total memory usage is 174324 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

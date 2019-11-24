@@ -1,0 +1,17 @@
+V3 11
+FL /home/hendri/Documents/workspaceXilinxBasys2/P7_sevenSegmentCounterV6/clk7seg.vhd 2013/11/23.14:28:20 P.58f
+EN work/psc7seg 1385298100 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P7_sevenSegmentCounterV6/clk7seg.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/psc7seg/Behavioral 1385298101 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P7_sevenSegmentCounterV6/clk7seg.vhd \
+      EN work/psc7seg 1385298100 CP BUFG
+FL /home/hendri/Documents/workspaceXilinxBasys2/P7_sevenSegmentCounterV6/sevenSegment.vhd 2013/11/23.14:28:27 P.58f
+EN work/sevenSegment 1385298102 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P7_sevenSegmentCounterV6/sevenSegment.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/sevenSegment/Behavioral 1385298103 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P7_sevenSegmentCounterV6/sevenSegment.vhd \
+      EN work/sevenSegment 1385298102 CP psc7seg CP BUFG
+FL /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV6/clk7seg.vhd 2013/11/23.14:28:20 P.58f
+FL /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV6/sevenSegment.vhd 2013/11/23.14:28:27 P.58f

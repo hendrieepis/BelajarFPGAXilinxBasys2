@@ -1,0 +1,3 @@
+vhdl work "prescaller.vhd"
+vhdl work "debouncingCircuit.vhd"
+vhdl work "vendingMachine.vhd"

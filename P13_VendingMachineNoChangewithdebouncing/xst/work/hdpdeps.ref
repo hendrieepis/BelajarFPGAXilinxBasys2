@@ -1,0 +1,22 @@
+V3 12
+FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/debouncingCircuit.vhd 2013/11/27.11:45:33 P.58f
+EN work/debouncingCircuit 1385527556 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/debouncingCircuit.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/debouncingCircuit/Behavioral 1385527557 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/debouncingCircuit.vhd \
+      EN work/debouncingCircuit 1385527556
+FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/prescaller.vhd 2013/11/27.10:34:19 P.58f
+EN work/prescaller 1385527554 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/prescaller.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/prescaller/Behavioral 1385527555 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/prescaller.vhd \
+      EN work/prescaller 1385527554
+FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingMachine.vhd 2013/11/27.11:09:29 P.58f
+EN work/vendingmachine 1385527558 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingMachine.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/vendingmachine/Behavioral 1385527559 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingMachine.vhd \
+      EN work/vendingmachine 1385527558 CP prescaller CP debouncingCircuit

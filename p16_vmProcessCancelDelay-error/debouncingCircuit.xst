@@ -1,0 +1,5 @@
+set -tmpdir "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/xst/projnav.tmp"
+set -xsthdpdir "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/xst"
+elaborate
+-ifn debouncingCircuit.prj
+-ifmt mixed

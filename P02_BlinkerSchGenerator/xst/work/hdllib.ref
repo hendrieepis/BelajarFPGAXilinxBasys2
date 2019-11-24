@@ -1,0 +1,4 @@
+AR blinker behavioral /home/hendri/Documents/workspaceXilinxBasys2/P2_BlinkerSCH/Blinker.vhf sub00/vhpl03 1385296390
+EN counter NULL /home/hendri/Documents/workspaceXilinxBasys2/P2_BlinkerSCH/ipcore_dir/counter.vhd sub00/vhpl00 1385296387
+AR counter counter_a /home/hendri/Documents/workspaceXilinxBasys2/P2_BlinkerSCH/ipcore_dir/counter.vhd sub00/vhpl01 1385296388
+EN blinker NULL /home/hendri/Documents/workspaceXilinxBasys2/P2_BlinkerSCH/Blinker.vhf sub00/vhpl02 1385296389

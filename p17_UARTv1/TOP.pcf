@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.58f on Sat Dec 07 19:30:31 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "USB_RS232_TXD" LOCATE = SITE "A3" LEVEL 1;
+COMP "CLOCK_Y3" LOCATE = SITE "B8" LEVEL 1;
+COMP "USER_RESET" LOCATE = SITE "A7" LEVEL 1;
+COMP "USB_RS232_RXD" LOCATE = SITE "A9" LEVEL 1;
+NET "CLOCK_Y3_BUFGP/IBUFG" BEL "CLOCK_Y3_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

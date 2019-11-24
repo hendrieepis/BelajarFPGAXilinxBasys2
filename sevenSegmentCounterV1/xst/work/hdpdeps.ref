@@ -1,0 +1,8 @@
+V3 5
+FL /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV1/sevenSegment.vhd 2013/11/19.06:11:43 P.58f
+EN work/sevenSegment 1384994873 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV1/sevenSegment.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/sevenSegment/Behavioral 1384994874 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmentCounterV1/sevenSegment.vhd \
+      EN work/sevenSegment 1384994873 CP BUFG

@@ -1,0 +1,8 @@
+EN nothdl NULL /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/notHDL.vhd sub00/vhpl02 1384686720
+AR mainhdl behavioral /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/mainHDL.vhd sub00/vhpl07 1384686725
+AR nothdl behavioral /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/notHDL.vhd sub00/vhpl03 1384686721
+EN or2hdl NULL /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/or2HDL.vhd sub00/vhpl04 1384686722
+AR or2hdl behavioral /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/or2HDL.vhd sub00/vhpl05 1384686723
+EN and2hdl NULL /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/and2HDL.vhd sub00/vhpl00 1384686718
+AR and2hdl behavioral /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/and2HDL.vhd sub00/vhpl01 1384686719
+EN mainhdl NULL /home/hendri/Documents/workspaceXilinxBasys2/multipleFile/mainHDL.vhd sub00/vhpl06 1384686724

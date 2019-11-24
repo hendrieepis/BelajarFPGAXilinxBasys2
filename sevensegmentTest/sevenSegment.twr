@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (lin)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.5/ISE_DS/ISE/bin/lin/unwrapped/trce -intstyle ise -v 3 -s 4 -n 3
+-fastpaths -xml sevenSegment.twx sevenSegment.ncd -o sevenSegment.twr
+sevenSegment.pcf -ucf sevenSegment.ucf
+
+Design file:              sevenSegment.ncd
+Physical constraint file: sevenSegment.pcf
+Device,package,speed:     xc3s250e,cp132,-4 (PRODUCTION 1.27 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+switchIN<0>    |segmentOut<0>  |    7.794|
+switchIN<0>    |segmentOut<1>  |    8.004|
+switchIN<0>    |segmentOut<2>  |    8.457|
+switchIN<0>    |segmentOut<3>  |    7.635|
+switchIN<0>    |segmentOut<4>  |    8.383|
+switchIN<0>    |segmentOut<5>  |    8.662|
+switchIN<0>    |segmentOut<6>  |    8.208|
+switchIN<1>    |segmentOut<0>  |    8.279|
+switchIN<1>    |segmentOut<1>  |    8.554|
+switchIN<1>    |segmentOut<2>  |    8.920|
+switchIN<1>    |segmentOut<3>  |    8.185|
+switchIN<1>    |segmentOut<4>  |    8.868|
+switchIN<1>    |segmentOut<5>  |    8.836|
+switchIN<1>    |segmentOut<6>  |    8.640|
+switchIN<2>    |segmentOut<0>  |    8.254|
+switchIN<2>    |segmentOut<1>  |    8.524|
+switchIN<2>    |segmentOut<2>  |    8.939|
+switchIN<2>    |segmentOut<3>  |    8.155|
+switchIN<2>    |segmentOut<4>  |    8.843|
+switchIN<2>    |segmentOut<5>  |    9.125|
+switchIN<2>    |segmentOut<6>  |    8.717|
+switchIN<3>    |segmentOut<0>  |    9.817|
+switchIN<3>    |segmentOut<1>  |   10.052|
+switchIN<3>    |segmentOut<2>  |   10.062|
+switchIN<3>    |segmentOut<3>  |    9.683|
+switchIN<3>    |segmentOut<4>  |   10.406|
+switchIN<3>    |segmentOut<5>  |    9.802|
+switchIN<3>    |segmentOut<6>  |    9.775|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 16 10:12:10 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 99 MB
+
+
+

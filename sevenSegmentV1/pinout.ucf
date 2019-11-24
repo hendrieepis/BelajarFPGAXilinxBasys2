@@ -1,0 +1,10 @@
+NET "a" LOC=L14; 
+NET "b" LOC=H12;
+NET "c" LOC=N14;
+NET "d" LOC=N11;
+NET "e" LOC=P12;
+NET "f" LOC=L13;
+NET "g" LOC=M12;
+NET "dot" LOC=N13;
+NET "enA" LOC=F12;
+

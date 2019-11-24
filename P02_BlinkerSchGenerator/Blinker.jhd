@@ -1,0 +1,3 @@
+MODULE Blinker
+	SUBMODULE counter
+		INSTANCE XLXI_5

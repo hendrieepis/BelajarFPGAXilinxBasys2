@@ -1,0 +1,5 @@
+set -tmpdir "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/xst/projnav.tmp"
+set -xsthdpdir "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/xst"
+elaborate
+-ifn prescaller.prj
+-ifmt mixed

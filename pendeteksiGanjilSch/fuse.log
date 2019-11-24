@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.5/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -o /home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjilSch/mainTestbench_isim_beh.exe -prj /home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjilSch/mainTestbench_beh.prj work.mainTestbench 
+ISim P.58f (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjilSch/main.vhf" into library work
+Parsing VHDL file "/home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjilSch/mainTestbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 45940 KB
+Fuse CPU Usage: 2590 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture and4_v of entity AND4 [and4_default]
+Compiling architecture fmap_v of entity FMAP [fmap_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture behavioral of entity OR8_MXILINX_main [or8_mxilinx_main_default]
+Compiling architecture behavioral of entity main [main_default]
+Compiling architecture behavior of entity maintestbench
+Time Resolution for simulation is 1ps.
+Compiled 21 VHDL Units
+Built simulation executable /home/hendri/Documents/workspaceXilinxBasys2/pendeteksiGanjilSch/mainTestbench_isim_beh.exe
+Fuse Memory Usage: 60172 KB
+Fuse CPU Usage: 2840 ms
+GCC CPU Usage: 930 ms

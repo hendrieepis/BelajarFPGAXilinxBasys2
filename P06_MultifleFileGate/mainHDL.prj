@@ -1,0 +1,4 @@
+vhdl work "or2HDL.vhd"
+vhdl work "notHDL.vhd"
+vhdl work "and2HDL.vhd"
+vhdl work "mainHDL.vhd"

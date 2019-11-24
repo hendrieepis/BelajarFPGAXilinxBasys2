@@ -1,0 +1,11 @@
+NET "clk_in" LOC=b8;
+NET "clk_out" LOC=C9;
+NET "cnt_out<7>"  LOC=G1;
+NET "cnt_out<6>"  LOC=P4;
+NET "cnt_out<5>"  LOC=N4;
+NET "cnt_out<4>"  LOC=N5;
+NET "cnt_out<3>"  LOC=P6;
+NET "cnt_out<2>"  LOC=P7;
+NET "cnt_out<1>"  LOC=M11;
+NET "cnt_out<0>"  LOC=M5;
+

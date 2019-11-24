@@ -1,0 +1,15 @@
+NET "seg_OUT<0>" LOC=L14;
+NET "seg_OUT<1>" LOC=H12;
+NET "seg_OUT<2>" LOC=N14;
+NET "seg_OUT<3>" LOC=N11;
+NET "seg_OUT<4>" LOC=P12;
+NET "seg_OUT<5>" LOC=L13;
+NET "seg_OUT<6>" LOC=M12;
+NET "sw_IN<0>"      LOC=P11;
+NET "sw_IN<1>"      LOC=L3;
+NET "sw_IN<2>"      LOC=K3;
+NET "sw_IN<3>"      LOC=B4;
+NET "enA_OUT"       LOC=F12;
+NET "clk_IN"        LOC=B8;
+NET "clk_OUT"       LOC=M5;
+

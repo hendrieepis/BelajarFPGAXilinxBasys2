@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.ncd
+OUTFILE=/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.bit
+FAMILY=Spartan3E
+PART=xc3s250e-4cp132
+WORKINGDIR=/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing
+LICENSE=WebPack
+USER_INFO=205718885_0_0_534

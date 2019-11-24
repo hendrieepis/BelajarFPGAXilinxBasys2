@@ -1,0 +1,1 @@
+vhdtdtfi -prj P13_VendingMachineNochange -o /home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineNochange/prescaller.vhi -module prescaller -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work prescaller.vhd 

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="lin" product="ISE" version="14.5">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="NgdBuild" timeStamp="Sun Nov 24 19:33:14 2013">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="PATH"/>
+          <item stringID="value" value="/opt/Xilinx/14.5/ISE_DS/ISE//bin/lin:/opt/armtools/gcc-arm-none-eabi-4_7-2013q3/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/opt/Xilinx/14.5/ISE_DS/ISE/"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="LD_LIBRARY_PATH"/>
+          <item stringID="value" value="/opt/Xilinx/14.5/ISE_DS/ISE//lib/lin"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Ubuntu"/>
+        <item stringID="User_EnvOsrelease" value="Ubuntu 13.04"/>
+      </item>
+      <item stringID="User_EnvHost" value="wsn-CM6870"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz"/>
+          <item stringID="speed" value="1600.000 MHz"/>
+        </row>
+      </table>
+    </section>
+    <task stringID="NGDBUILD_OPTION_SUMMARY">
+      <section stringID="NGDBUILD_OPTION_SUMMARY">
+        <item DEFAULT="None" label="-intstyle" stringID="NGDBUILD_intstyle" value="ise"/>
+        <item DEFAULT="None" label="-dd" stringID="NGDBUILD_output_dir" value="_ngo"/>
+        <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc3s250e-cp132-4"/>
+        <item DEFAULT="None" label="-sd" stringID="NGDBUILD_search_path" value="ipcore_dir"/>
+        <item DEFAULT="None" label="-uc" stringID="NGDBUILD_ucf_file" value="pinout.ucf"/>
+      </section>
+    </task>
+    <task stringID="NGDBUILD_REPORT">
+      <section stringID="NGDBUILD_DESIGN_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="0"/>
+      </section>
+      <section stringID="NGDBUILD_PRE_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_BUFGP" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="25"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDRE" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="24"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="6"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="31"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="25"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="25"/>
+      </section>
+      <section stringID="NGDBUILD_POST_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="25"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDRE" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUFG" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="24"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="6"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="31"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="25"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="25"/>
+      </section>
+      <section stringID="NGDBUILD_CORE_SUMMARY">
+        <item COUNT="1" stringID="NGDBUILD_CORE" value="c_counter_binary_v11_0, Xilinx CORE Generator 14.5"/>
+        <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
+          <section stringID="NGDBUILD_CORE_INSTANCES">
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="counter">
+              <item stringID="NGDBUILD_CORE_INFO" type="c_counter_binary_v11_0" value="counter"/>
+              <item c_ainit_val="0" c_ce_overrides_sync="0" c_count_by="1" c_count_mode="0" c_count_to="1" c_fb_latency="0" c_has_ce="0" c_has_load="0" c_has_sclr="0" c_has_sinit="0" c_has_sset="0" c_has_thresh0="1" c_implementation="0" c_latency="1" c_load_low="0" c_restrict_count="0" c_sclr_overrides_sset="1" c_sinit_val="0" c_thresh0_value="111111111111111111111110" c_verbosity="0" c_width="25" c_xdevicefamily="spartan3e" stringID="NGDBUILD_CORE_PARAMETERS" value="counter"/>
+            </scope>
+          </section>
+        </section>
+      </section>
+    </task>
+  </application>
+
+</document>

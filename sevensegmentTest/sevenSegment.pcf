@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.58f on Mon Dec 16 10:11:42 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "segmentOut<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "segmentOut<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "segmentOut<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "segmentOut<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "segmentOut<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "segmentOut<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "segmentOut<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "switchIN<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "switchIN<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "switchIN<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "switchIN<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "enA" LOCATE = SITE "F12" LEVEL 1;
+SCHEMATIC END;
+

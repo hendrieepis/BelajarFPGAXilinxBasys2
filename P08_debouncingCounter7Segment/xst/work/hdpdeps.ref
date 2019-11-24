@@ -1,0 +1,8 @@
+V3 5
+FL /home/hendri/Documents/workspaceXilinxBasys2/P8_debouncingCounter7Segment/system.vhd 2013/11/24.20:34:56 P.58f
+EN work/sevenSegment 1385300103 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P8_debouncingCounter7Segment/system.vhd \
+      PB ieee/std_logic_1164 1364358218 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/sevenSegment/Behavioral 1385300104 \
+      FL /home/hendri/Documents/workspaceXilinxBasys2/P8_debouncingCounter7Segment/system.vhd \
+      EN work/sevenSegment 1385300103 CP BUFG

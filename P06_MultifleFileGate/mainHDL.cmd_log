@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/multipleFile/mainHDL.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/multipleFile/mainHDL.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/multipleFile/mainHDL.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/multipleFile/mainHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainHDL.ucf -p xc3s250e-cp132-4 mainHDL.ngc mainHDL.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o mainHDL_map.ncd mainHDL.ngd mainHDL.pcf 
+par -w -intstyle ise -ol high -t 1 mainHDL_map.ncd mainHDL.ncd mainHDL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainHDL.twx mainHDL.ncd -o mainHDL.twr mainHDL.pcf -ucf mainHDL.ucf 
+bitgen -intstyle ise -f mainHDL.ut mainHDL.ncd 

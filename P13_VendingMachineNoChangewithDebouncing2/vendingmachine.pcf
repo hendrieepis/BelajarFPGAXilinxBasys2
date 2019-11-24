@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.58f on Wed Nov 27 11:59:49 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "drop_out" LOCATE = SITE "M5" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "u500_in" LOCATE = SITE "M4" LEVEL 1;
+COMP "tick" LOCATE = SITE "C9" LEVEL 1;
+COMP "debugstate<0>" LOCATE = SITE "N4" LEVEL 1;
+COMP "debugstate<1>" LOCATE = SITE "P4" LEVEL 1;
+COMP "debugstate<2>" LOCATE = SITE "G1" LEVEL 1;
+COMP "u1000_in" LOCATE = SITE "C11" LEVEL 1;
+COMP "rst" LOCATE = SITE "A7" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

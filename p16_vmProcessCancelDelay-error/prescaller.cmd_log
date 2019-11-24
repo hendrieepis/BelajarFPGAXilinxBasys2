@@ -1,0 +1,1 @@
+vhdtdtfi -prj p16_vmProcessCancelDelay -o /home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/prescaller.vhi -module prescaller -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work prescaller.vhd 

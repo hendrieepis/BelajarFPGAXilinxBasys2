@@ -1,0 +1,243 @@
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachinenoChangewithdebouncing/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P13_VendingMachineChangewithDebouncing2/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P14_vendingMachineChange/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+vhdtdtfi -prj P15_vendingMachineProcessCancel -o /home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.vhi -module vendingmachine -template /opt/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work prescaller.vhd -lib work debouncingCircuit.vhd -lib work vendingMachine.vhd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/P15_vendingMachineProcessCancel/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 
+xst -intstyle ise -ifn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.xst" -ofn "/home/hendri/Documents/workspaceXilinxBasys2/p16_vmProcessCancelDelay_OK/vendingmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinout.ucf -p xc3s250e-cp132-4 vendingmachine.ngc vendingmachine.ngd  
+map -intstyle ise -p xc3s250e-cp132-4 -cm area -ir off -pr off -c 100 -o vendingmachine_map.ncd vendingmachine.ngd vendingmachine.pcf 
+par -w -intstyle ise -ol high -t 1 vendingmachine_map.ncd vendingmachine.ncd vendingmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vendingmachine.twx vendingmachine.ncd -o vendingmachine.twr vendingmachine.pcf -ucf pinout.ucf 
+bitgen -intstyle ise -f vendingmachine.ut vendingmachine.ncd 

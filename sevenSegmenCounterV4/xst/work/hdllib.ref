@@ -1,0 +1,4 @@
+EN psc7seg NULL /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmenCounterV4/clk7seg.vhd sub00/vhpl00 1385132770
+AR sevensegment behavioral /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmenCounterV4/sevenSegment.vhd sub00/vhpl03 1385132773
+AR psc7seg behavioral /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmenCounterV4/clk7seg.vhd sub00/vhpl01 1385132771
+EN sevensegment NULL /home/hendri/Documents/workspaceXilinxBasys2/sevenSegmenCounterV4/sevenSegment.vhd sub00/vhpl02 1385132772
